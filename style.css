@@ -1,0 +1,510 @@
+@import url(https://db.onlinewebfonts.com/c/01173b246d9d9ea808ea75a26b3b61bb?family=CircularSpotifyTxT-Black);
+@font-face {
+  font-family: "CircularSpotifyTxT-Black";
+  src: url("https://db.onlinewebfonts.com/t/01173b246d9d9ea808ea75a26b3b61bb.eot");
+  src: url("https://db.onlinewebfonts.com/t/01173b246d9d9ea808ea75a26b3b61bb.eot?#iefix")format("embedded-opentype"),
+  url("https://db.onlinewebfonts.com/t/01173b246d9d9ea808ea75a26b3b61bb.woff2")format("woff2"),
+  url("https://db.onlinewebfonts.com/t/01173b246d9d9ea808ea75a26b3b61bb.woff")format("woff"),
+  url("https://db.onlinewebfonts.com/t/01173b246d9d9ea808ea75a26b3b61bb.ttf")format("truetype"),
+  url("https://db.onlinewebfonts.com/t/01173b246d9d9ea808ea75a26b3b61bb.svg#CircularSpotifyTxT-Black")format("svg");
+}
+
+*{
+  font-family: "CircularSpotifyTxT-Black";
+  font-size: small;
+}
+#main{
+    display: flex;
+    background-color: black;
+  
+}
+
+#left{
+  
+    height: 100vh;
+    width:331px ;
+  background-color: black; 
+}
+
+#lefttop{
+    background-color: #121212;
+    height: 20%;
+    border-radius: 30px;
+    margin-top: 11px;
+    margin-right: 11px;
+    margin-left: 11px;
+    
+}
+
+#whiteicon{
+    height: 16%;
+    width: auto;
+    padding: 20px;
+}
+
+#home , #search
+{padding-left: 20px;
+    color: rgb(240, 235, 235);
+    width: 33%;
+    display: flex;
+    align-items: center;
+    margin-bottom: 11px;
+    font-size: large;
+    
+
+}
+
+#search {
+    opacity: 0.7;
+  }
+  
+#searchimg{opacity: 0.7;}
+  
+  #search:hover, #searchimg:hover {
+    opacity: 1;
+  }
+  
+  #searchimg:hover {
+    opacity: 1;
+  }
+
+
+
+
+#homeimg, #searchimg{
+    height: 30px;
+    width: auto;
+    margin-right: 25px;
+    opacity:1;
+}
+
+#searhimg{
+    opacity:0.3;
+}
+
+
+
+
+#leftbott{
+    background-color: rgba(23, 23, 23, 0.966);
+    height: 68%;
+    margin-top:15px ;
+    border-radius: 30px;
+    margin-top: 11px;
+    margin-right: 11px;
+    margin-left: 11px;
+    
+    
+}
+
+#right{
+   flex: 1;
+    background-color:rgba(23, 23, 23, 0.966);
+    height: 100vh;
+    border-radius: 30px;
+    margin-top: 11px;
+    display: flex;
+    overflow: auto;
+    flex-direction: column;
+}
+
+
+
+
+#library{
+  height: 8%;
+  width: 100%;
+  
+  display: flex;
+  align-items: center;
+  color: rgb(240, 235, 235);
+  opacity: 0.7;
+  
+ 
+  
+}
+
+#add{
+  margin-right: 10px;
+ right: 0%;
+ height: 21px;
+ margin-left: 30%;
+ opacity:0.7 ;
+  
+}
+#add:hover{
+  opacity:1;
+}
+
+
+#libraryicon{
+  height: 21px;
+  width: auto;
+  margin-right: 25px;
+  padding-left: 20px;
+  opacity: 0.7;
+}
+
+#library:hover #libraryicon,
+#library:hover #librarytext {
+    opacity: 1;
+}
+
+#libraryicon:hover {
+  opacity: 1;
+}
+
+#librarytext {
+  opacity: 0.7;
+  font-size: large;
+}
+
+#librarytext:hover {
+  opacity: 1;
+}
+
+
+#playlist,#podcast{
+  height: 25%;
+  margin-top: 11px;
+  border-radius:20px ;
+  display: flex;
+  padding-left: 20px;
+  flex-direction: column;
+  color: whitesmoke;
+  
+  background-color: rgb(33, 32, 32);
+}
+#playlist1,#podcast1{
+margin-top: 11px;
+margin-bottom:5% ;
+
+font-size: large;
+
+}
+
+#playlist2,#podcast2{
+  margin-bottom: 6.5%;
+  font-size: small;
+  opacity:0.78;
+
+}
+
+#playlist3,#podcast3 {
+  background-color: whitesmoke;
+  color: black;
+  border-radius: 30px;
+  width: 40%;
+  height: 16%;
+  text-align: center;
+  font-size: smaller;
+  font-weight: bold;
+  padding-top: 5px;
+  transition: transform 0.1s;
+}
+
+#playlist3:hover,#podcast3:hover {
+  
+  transform: scale(1.1);
+  
+}
+
+#podcast{
+  margin-top: 22px;
+}
+
+#cookies ,#acook{
+  margin-top: 15%;
+  padding-left:10px ;
+  text-decoration: none;
+  color: whitesmoke;
+  opacity: 0.7;
+  font-size: small;
+}
+
+#english{
+  margin-left: 21px;
+  padding: 2%;
+
+  display: flex;
+  margin-top: 15%;
+  border: 1px solid rgb(93, 90, 90);
+  border-radius: 30px;
+    width: 27%;
+    align-items: center;
+
+}
+
+#english:hover{
+  transform: scale(1.1);
+  border: 1.4px solid whitesmoke;
+}
+#globe{
+  height: 20px;
+  width: auto;
+}
+
+#eenglish{
+  margin-left: 3%;
+  color: whitesmoke;
+  
+}
+
+#nav{
+  margin:11px;
+  display: flex;
+
+}
+
+#back{
+  background-color: rgba(36, 35, 35, 0.966);;
+  border-radius: 50px;
+  height: 40px;
+  width: 40px;
+  justify-content: center;
+  position: absolute;
+  margin-right: 11px;
+  opacity:0.5;
+
+}
+
+#backimg{
+  position: relative;
+  left: 20%;
+  top:20%;
+
+}
+
+#forward{
+  background-color: rgba(36, 35, 35, 0.966);;
+  border-radius: 50px;
+  height: 40px;
+  width: 40px;
+  left: 400px;
+  justify-content: center;
+  position: absolute;
+  opacity:0.5;
+ 
+
+}
+
+#forward:hover, #back:hover{
+  opacity: 1;
+}
+#forwimg{
+  position: relative;
+  left: 20%;
+  top:20%;
+
+}
+
+
+#upgrade{
+  position: absolute;
+  right: 200px;
+  background-color: white;
+  border-radius: 50px;
+  height: 40px;
+  width: 80px;
+  text-align: center;
+  
+}
+
+#upgradetext{
+  margin-top: 8px;
+
+}
+
+#install{
+  position: absolute;
+  right: 40px;
+  background-color: black;
+  border-radius: 50px;
+  height: 40px;
+  width: 140px;
+  text-align: center;
+  display:flex;
+  align-items: center;
+  
+
+}
+#installicon img {
+  margin-left: 15px;
+  max-width: 24px; /* Set a maximum width for the image */
+  max-height: 24px; /* Set a maximum height for the image */
+  margin-right: 10px;/* Add some margin to separate the icon from text */
+}
+
+#installtext{
+  color: whitesmoke;
+  
+ 
+
+}
+#upgrade:hover{
+  transform: scale(1.1);
+}
+
+#install:hover{
+  transform: scale(1.1);
+}
+
+
+#recently,#trending{
+  
+  display: flex;
+  margin-top:70px ;
+  flex-direction: column;
+  width: 100%;
+  height: 45vh;
+ 
+ 
+}
+
+#recpla,#trendingnow{
+  margin-left: 40px;
+  font-size: 25px;
+  color: whitesmoke;
+ 
+}
+
+#trendingnow{
+  margin-top: 25px;
+}
+
+#recentlycard,#trendingcard{
+ 
+  margin-top: 11px;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 38vh;
+  flex-wrap: wrap;
+}
+  
+
+.card{
+  padding: 20px;
+  border-radius: 15px;
+  background-color:rgba(40, 39, 39, 0.966);;
+  width: 14%;
+  display: inline-block;
+  margin-left: 5%;
+  margin-top: 20px;
+
+  
+  
+}
+
+.card {
+  width: calc(25% - 20px); /* 25% width with some margin */
+  margin: 10px;
+  word-wrap: break-word; /* Allow text to wrap within cards */
+}
+
+
+
+.cardimg{
+height: 55%;
+width: 95%;
+
+}
+
+.cardtit{
+  color: whitesmoke;
+  font-size: large;
+  opacity: 1;
+  margin-top: 11px;
+}
+
+.carddes{
+  color: whitesmoke;
+  opacity: 0.6;
+  margin-top: 11px;
+  font-size: medium;
+}
+
+#bott{
+  position: fixed;
+  background-color: black;
+  bottom: 0px;
+  width: 100vw;
+  height: 80px;
+  display: flex;
+  flex-direction: row;
+
+  
+}
+#aicon1 {
+  height: 50px;
+  margin-top: 15px;
+  margin-left: 30px;
+}
+
+
+#songname{
+  opacity: 1;
+  margin-top: 15px;
+  margin-left: 30px;
+  color: whitesmoke;
+}
+
+#artist{
+  opacity: 0.7;
+  font-size: smaller;
+
+  color: whitesmoke;
+}
+
+#aicon2,#aicon3{
+  height: 30px;
+  margin-top: 15px;
+  margin-left: 30px;
+}
+#icon1,#icon2,#icon3,#icon4,#icon5{
+  height: 20px;
+  margin-top: 15px;
+  margin-left: 30px;
+  justify-content: center;
+  position: relative;
+  left: 20vw;
+  opacity: 0.7;
+}
+
+#icon1:hover,#icon2:hover,#icon3:hover,#icon4:hover,#icon5:hover{
+  opacity: 1;
+}
+
+@media screen and (max-width: 997px) {
+  .carddes{
+    visibility: hidden; /* Adjust font size for smaller screens */
+  }
+
+  
+
+  #left{
+    display: none;
+  }
+
+  #right{
+    width:100%;
+  }
+
+  #upgrade{
+    visibility: hidden;
+  }
+}
+
+
+#bar{
+  height: 4px;
+  width: 90%;
+  border-radius: 30px;
+  
+  background: conic-gradient(white 0deg 180deg, green 180deg 360deg) ;
+  margin-top: 15px;
+  margin-left: 30px;
+  justify-content: center;
+  position: relative;
+  left: 20vw;
+}
